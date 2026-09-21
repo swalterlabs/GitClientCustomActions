@@ -12,12 +12,12 @@ public class StartProcessAndWriteOutputToConsole : IStartProcessAndWriteOutput
         Console.WriteLine($"{process.StartInfo.Arguments}...");
         var output = process.StandardOutput.ReadToEnd().Trim();
         var error = process.StandardError.ReadToEnd().Trim();
-        
+
         if (!string.IsNullOrEmpty(output))
         {
             Console.WriteLine(output);
         }
-        
+
         if (!string.IsNullOrEmpty(error))
         {
             Console.WriteLine(error);
