@@ -15,7 +15,7 @@
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<PublishSingleFile>true</PublishSingleFile>
 		<RepositoryUrl>https://github.com/evilbaschdi/GitClientCustomActions</RepositoryUrl>
-		<TargetFramework>net11.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<Title>GitClientCustomActions</Title>
 		<Version>$([System.DateTime]::UtcNow.ToString(yyyy.M.d.H))</Version>
 		<EnableNETAnalyzers>true</EnableNETAnalyzers>
